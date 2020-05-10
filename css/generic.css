@@ -1,0 +1,28 @@
+
+@import url('./settings.css');
+
+
+h4 {
+    color: var(--color-black);
+    font-size: 0.8rem;
+}
+
+h3 {
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

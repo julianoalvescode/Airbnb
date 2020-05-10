@@ -1,0 +1,50 @@
+@import url('./base.css');
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#header__corona {
+    background-color: #f7f7f7;
+    padding: 20px 24px;
+}
+
+.header__corona-title {
+    text-align: center;
+    font-family: 'Circular Book';
+}
+
+#header {
+    margin-top: 1.56rem;
+}
+
+.header__brand {
+    height: 46px;
+}
+
+.header__navbar {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__item a {
+    color: var(--color-black);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 18px;
+    border-radius: 50px;
+    transition: all 0.1s ease-in;
+}
+
+.navbar__item a:hover {
+    background-color: var(--color-hover);
+    
+}
+
+#locate {
+    
+}
