@@ -15,10 +15,15 @@ h3 {
 
 a {
     text-decoration: none;
+    color: var(--color-black);
 }
 
 li {
     list-style: none;
+}
+
+i {
+    margin-right: 7px;
 }
 
 nav {

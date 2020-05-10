@@ -50,6 +50,10 @@
     </title>
     <link rel="icon" href="./assets/img/favicon.ico" />
     <link rel="stylesheet" href="./css/components.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -78,19 +82,74 @@
               <li class="navbar__item">
                 <a href="#">Entrar</a>
               </li>
+              <li class="navbar__item">
+                <a
+                  href="https://github.com/julianoalvescode/Airbnb"
+                  target="__blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Github
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
       </section>
     </header>
     <main>
-        <section id="locate">
-            <form>
+      <section id="locate">
+        <div class="container">
+          <form class="search">
+            <div class="locate__content">
+              <label>Localização</label>
+              <input placeholder="Para onde você vai?" type="text" />
+            </div>
+            <div class="checkin__content">
+              <label>Check-in</label>
+              <input type="date" />
+            </div>
+            <div>
+              <button type="submit">
+                <i class="fas fa-search"></i>
+                Buscar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="quartos">
+        <div class="container">
+          <div class="quartos__content">
+            <a href="#">
+              <div class="item">
                 <div>
-                    
+                  <img  src="https://a0.muscache.com/im/pictures/e6c4b347-49c7-4840-8c00-df36a2a273da.jpg?aki_policy=x_large" alt="quarto"/>
                 </div>
-            </form>
-        </section>
+                <div>
+                  <h1 class="item__name">Apartamento</h1>
+                  <h3 class="item__description">Apartment in Son Parc, wonderful views</h3>
+                  <h2 class="item__price">R$ 433/mes</h2>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="item">
+                <div>
+                  <img  src="https://a0.muscache.com/im/pictures/e6c4b347-49c7-4840-8c00-df36a2a273da.jpg?aki_policy=x_large" alt="quarto"/>
+                </div>
+                <div>
+                  <h1 class="item__name">Apartamento</h1>
+                  <h3 class="item__description">Apartment in Son Parc, wonderful views</h3>
+                  <h2 class="item__price">R$ 433/mes</h2>
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

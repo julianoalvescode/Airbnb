@@ -29,7 +29,7 @@
      -webkit-font-smoothing: antialiased;
  }
 
- body {
+ body, input,a, button {
      font-family: 'Circular Medium', Arial, Helvetica, sans-serif;
      font-size: 0.9rem;
  }
